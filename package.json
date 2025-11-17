@@ -1,6 +1,6 @@
 {
   "name": "picsum-photo-gallery-app",
-  "homepage": "https://TNhanTis.github.io/IA05-Picsum-photo-gallery-app/",
+  "homepage": "https://TNhanTis.github.io/IA05-Picsum-photo-gallery",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.13.2",
